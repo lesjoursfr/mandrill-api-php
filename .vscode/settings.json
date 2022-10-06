@@ -14,6 +14,6 @@
 	},
 	"phpcs.composerJsonPath": "composer.json",
 	"phpcs.standard": "./phpcs.xml",
-	"php-cs-fixer.config": ".php_cs",
+	"php-cs-fixer.config": ".php-cs-fixer.php",
 	"php-cs-fixer.onsave": true
 }

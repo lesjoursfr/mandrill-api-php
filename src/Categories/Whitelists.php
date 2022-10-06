@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Add, list, or delete from your Rejection Allowlist. These endpoints are being replaced with a series of functionally identical endpoints called /allowlists.
+ */
 class Whitelists
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;

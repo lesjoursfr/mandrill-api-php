@@ -4,6 +4,9 @@ namespace Mandrill\Exceptions;
 
 use Exception;
 
-class Error extends Exception
+/**
+ * Mandrill Error.
+ */
+class Error extends Exception // phpcs:ignore Symfony.NamingConventions.ValidClassName.InvalidExceptionName
 {
 }

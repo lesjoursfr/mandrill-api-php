@@ -4,13 +4,18 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Get information about your account, or ping Transactional.
+ */
 class Users
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Return the information about the API-connected user.
      *
@@ -89,7 +94,7 @@ class Users
      *                - clicks integer the number of URLs that have been clicked in the lifetime of the user's account
      *                - unique_clicks integer the number of unique clicks for emails sent in the lifetime of the user's account
      */
-    public function info()
+    public function info() // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = [];
 

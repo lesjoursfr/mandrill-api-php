@@ -3,3 +3,4 @@ composer.lock
 composer.phar
 phpDocumentor.phar
 .phpdoc
+phpcs-report.xml

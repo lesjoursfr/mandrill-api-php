@@ -2,6 +2,9 @@
 
 namespace Mandrill;
 
+/**
+ * Mandrill API Client.
+ */
 class Client
 {
     public $apikey;
@@ -9,7 +12,7 @@ class Client
     public $root = 'https://mandrillapp.com/api/1.0';
     public $debug = false;
 
-    public static $error_map = [
+    public static $errorMap = [
         'ValidationError' => Exceptions\ValidationError::class,
         'Invalid_Key' => Exceptions\InvalidKey::class,
         'PaymentRequired' => Exceptions\PaymentRequired::class,
@@ -41,6 +44,13 @@ class Client
         'Unknown_MetadataField' => Exceptions\UnknownMetadataField::class,
     ];
 
+    /**
+     * Create a new Mandrill API Client.
+     * If there is no API key the client will try to load it from the MANDRILL_APIKEY environment variable
+     * or  '~/.mandrill.key' & '/etc/mandrill.key' files.
+     *
+     * @param string|null $apikey the Mandrill API key (optional)
+     */
     public function __construct($apikey = null)
     {
         if (!$apikey) {
@@ -82,11 +92,13 @@ class Client
         $this->metadata = new Categories\Metadata($this);
     }
 
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __destruct()
     {
         curl_close($this->ch);
     }
 
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function call($url, $params)
     {
         $params['key'] = $this->apikey;
@@ -101,27 +113,28 @@ class Client
         $start = microtime(true);
         $this->log('Call to '.$this->root.$url.'.json: '.$params);
         if ($this->debug) {
-            $curl_buffer = fopen('php://memory', 'w+');
-            curl_setopt($ch, CURLOPT_STDERR, $curl_buffer);
+            $curlBuffer = fopen('php://memory', 'w+');
+            curl_setopt($ch, CURLOPT_STDERR, $curlBuffer);
         }
 
-        $response_body = curl_exec($ch);
+        $responseBody = curl_exec($ch);
         $info = curl_getinfo($ch);
         $time = microtime(true) - $start;
         if ($this->debug) {
-            rewind($curl_buffer);
-            $this->log(stream_get_contents($curl_buffer));
-            fclose($curl_buffer);
+            rewind($curlBuffer);
+            $this->log(stream_get_contents($curlBuffer));
+            fclose($curlBuffer);
         }
         $this->log('Completed in '.number_format($time * 1000, 2).'ms');
-        $this->log('Got response: '.$response_body);
+        $this->log('Got response: '.$responseBody);
 
         if (curl_error($ch)) {
-            throw new Exceptions\HttpError("API call to $url failed: ".curl_error($ch));
+            $curlError = curl_error($ch);
+            throw new Exceptions\HttpError("API call to $url failed: $curlError");
         }
-        $result = json_decode($response_body, true);
+        $result = json_decode($responseBody, true);
         if (null === $result) {
-            throw new Exceptions\Error('We were unable to decode the JSON response from the Mandrill API: '.$response_body);
+            throw new Exceptions\Error("We were unable to decode the JSON response from the Mandrill API: $responseBody");
         }
 
         if (floor($info['http_code'] / 100) >= 4) {
@@ -131,6 +144,7 @@ class Client
         return $result;
     }
 
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function readConfigs()
     {
         $paths = ['~/.mandrill.key', '/etc/mandrill.key'];
@@ -146,17 +160,20 @@ class Client
         return false;
     }
 
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function castError($result)
     {
         if ('error' !== $result['status'] || !$result['name']) {
-            throw new Exceptions\Error('We received an unexpected error: '.json_encode($result));
+            $jsonError = json_encode($result);
+            throw new Exceptions\Error("We received an unexpected error: $jsonError");
         }
 
-        $class = (isset(self::$error_map[$result['name']])) ? self::$error_map[$result['name']] : Exceptions\Error::class;
+        $class = (isset(self::$errorMap[$result['name']])) ? self::$errorMap[$result['name']] : Exceptions\Error::class;
 
         return new $class($result['message'], $result['code']);
     }
 
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function log($msg)
     {
         if ($this->debug) {

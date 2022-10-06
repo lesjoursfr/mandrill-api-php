@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Manage or get information about your sending domains.
+ */
 class Senders
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;
@@ -36,6 +40,7 @@ class Senders
         return $this->master->call('senders/list', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Returns the sender domains that have been added to this account.
      *
@@ -55,13 +60,14 @@ class Senders
      *               - verified_at string if the domain has been verified, this indicates when that verification occurred as a UTC string in YYYY-MM-DD HH:MM:SS format
      *               - valid_signing boolean whether this domain can be used to authenticate mail, either for itself or as a custom signing domain. If this is false but spf and dkim are both valid, you will need to verify the domain before using it to authenticate mail
      */
-    public function domains()
+    public function domains() // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = [];
 
         return $this->master->call('senders/domains', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Adds a sender domain to your account. Sender domains are added automatically as you
      * send, but you can use this call to add them ahead of time.
@@ -83,13 +89,14 @@ class Senders
      *                - verified_at string if the domain has been verified, this indicates when that verification occurred as a UTC string in YYYY-MM-DD HH:MM:SS format
      *                - valid_signing boolean whether this domain can be used to authenticate mail, either for itself or as a custom signing domain. If this is false but spf and dkim are both valid, you will need to verify the domain before using it to authenticate mail
      */
-    public function addDomain($domain)
+    public function addDomain($domain) // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = ['domain' => $domain];
 
         return $this->master->call('senders/add-domain', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Checks the SPF and DKIM settings for a domain. If you haven't already added this domain to your
      * account, it will be added automatically.
@@ -111,7 +118,7 @@ class Senders
      *                - verified_at string if the domain has been verified, this indicates when that verification occurred as a UTC string in YYYY-MM-DD HH:MM:SS format
      *                - valid_signing boolean whether this domain can be used to authenticate mail, either for itself or as a custom signing domain. If this is false but spf and dkim are both valid, you will need to verify the domain before using it to authenticate mail
      */
-    public function checkDomain($domain)
+    public function checkDomain($domain) // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = ['domain' => $domain];
 

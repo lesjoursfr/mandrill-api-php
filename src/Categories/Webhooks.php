@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Manage the webhooks in your account.
+ */
 class Webhooks
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;

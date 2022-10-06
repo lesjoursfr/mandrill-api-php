@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Manage your tracking domains. Some of these endpoints may be deprecated.
+ */
 class Urls
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;
@@ -66,6 +70,7 @@ class Urls
         return $this->master->call('urls/time-series', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Get the list of tracking domains set up for this account.
      *
@@ -80,13 +85,14 @@ class Urls
      *               - error string an error describing the CNAME record, or null if the record is correct
      *               - valid_tracking boolean whether this domain can be used as a tracking domain for email.
      */
-    public function trackingDomains()
+    public function trackingDomains() // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = [];
 
         return $this->master->call('urls/tracking-domains', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Add a tracking domain to your account.
      *
@@ -102,13 +108,14 @@ class Urls
      *                - error string an error describing the CNAME record, or null if the record is correct
      *                - valid_tracking boolean whether this domain can be used as a tracking domain for email.
      */
-    public function addTrackingDomain($domain)
+    public function addTrackingDomain($domain) // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = ['domain' => $domain];
 
         return $this->master->call('urls/add-tracking-domain', $_params);
     }
 
+    // phpcs:disable Generic.Files.LineLength.TooLong
     /**
      * Checks the CNAME settings for a tracking domain. The domain must have been added already with the add-tracking-domain call.
      *
@@ -124,7 +131,7 @@ class Urls
      *                - error string an error describing the CNAME record, or null if the record is correct
      *                - valid_tracking boolean whether this domain can be used as a tracking domain for email.
      */
-    public function checkTrackingDomain($domain)
+    public function checkTrackingDomain($domain) // phpcs:enable Generic.Files.LineLength.TooLong
     {
         $_params = ['domain' => $domain];
 

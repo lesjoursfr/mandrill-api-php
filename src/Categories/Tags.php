@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * List, delete, or get information on your Tags and their sending statistics.
+ */
 class Tags
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;

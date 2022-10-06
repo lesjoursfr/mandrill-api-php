@@ -4,8 +4,12 @@ namespace Mandrill\Categories;
 
 use Mandrill\Client;
 
+/**
+ * Request and manage Dedicated IPs for your account, and set up reverse DNS.
+ */
 class Ips
 {
+    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
         $this->master = $master;
@@ -138,9 +142,9 @@ class Ips
     /**
      * Moves a dedicated IP to a different pool.
      *
-     * @param string $ip          a dedicated ip address
-     * @param string $pool        the name of the new pool to add the dedicated ip to
-     * @param bool   $create_pool whether to create the pool if it does not exist; if false and the pool does not exist, an Unknown_Pool will be thrown
+     * @param string $ip         a dedicated ip address
+     * @param string $pool       the name of the new pool to add the dedicated ip to
+     * @param bool   $createPool whether to create the pool if it does not exist; if false and the pool does not exist, an Unknown_Pool will be thrown
      *
      * @return struct Information about the updated state of the dedicated IP
      *                - ip string the ip address
@@ -156,9 +160,9 @@ class Ips
      *                - start_at string the start time for the warmup process as a UTC string in YYYY-MM-DD HH:MM:SS format
      *                - end_at string the end date and time for the warmup process as a UTC string in YYYY-MM-DD HH:MM:SS format
      */
-    public function setPool($ip, $pool, $create_pool = false)
+    public function setPool($ip, $pool, $createPool = false)
     {
-        $_params = ['ip' => $ip, 'pool' => $pool, 'create_pool' => $create_pool];
+        $_params = ['ip' => $ip, 'pool' => $pool, 'create_pool' => $createPool];
 
         return $this->master->call('ips/set-pool', $_params);
     }
