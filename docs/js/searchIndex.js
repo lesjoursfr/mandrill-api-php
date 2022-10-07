@@ -3,7 +3,7 @@ Search.appendIndex(
                 {
             "fqsen": "\\Mandrill\\Categories\\Exports",
             "name": "Exports",
-            "summary": "",
+            "summary": "Start\u0020an\u0020export,\u0020or\u0020get\u0020information\u0020on\u0020export\u0020jobs\u0020in\u0020progress.",
             "url": "classes/Mandrill-Categories-Exports.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Exports\u003A\u003A__construct\u0028\u0029",
@@ -38,7 +38,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Inbound",
             "name": "Inbound",
-            "summary": "",
+            "summary": "Manage\u0020your\u0020inbound\u0020domains\u0020and\u0020routes.",
             "url": "classes/Mandrill-Categories-Inbound.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Inbound\u003A\u003A__construct\u0028\u0029",
@@ -103,7 +103,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Ips",
             "name": "Ips",
-            "summary": "",
+            "summary": "Request\u0020and\u0020manage\u0020Dedicated\u0020IPs\u0020for\u0020your\u0020account,\u0020and\u0020set\u0020up\u0020reverse\u0020DNS.",
             "url": "classes/Mandrill-Categories-Ips.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Ips\u003A\u003A__construct\u0028\u0029",
@@ -178,7 +178,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Messages",
             "name": "Messages",
-            "summary": "",
+            "summary": "Send,\u0020schedule,\u0020or\u0020get\u0020information\u0020on\u0020your\u0020emails.",
             "url": "classes/Mandrill-Categories-Messages.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Messages\u003A\u003A__construct\u0028\u0029",
@@ -243,7 +243,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Metadata",
             "name": "Metadata",
-            "summary": "",
+            "summary": "Manage\u0020your\u0020custom\u0020metadata\u0020fields\u0020in\u0020your\u0020account.",
             "url": "classes/Mandrill-Categories-Metadata.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Metadata\u003A\u003A__construct\u0028\u0029",
@@ -273,7 +273,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Rejects",
             "name": "Rejects",
-            "summary": "",
+            "summary": "Add,\u0020list,\u0020or\u0020delete\u0020from\u0020your\u0020Rejection\u0020Denylist.",
             "url": "classes/Mandrill-Categories-Rejects.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Rejects\u003A\u003A__construct\u0028\u0029",
@@ -298,7 +298,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Senders",
             "name": "Senders",
-            "summary": "",
+            "summary": "Manage\u0020or\u0020get\u0020information\u0020about\u0020your\u0020sending\u0020domains.",
             "url": "classes/Mandrill-Categories-Senders.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Senders\u003A\u003A__construct\u0028\u0029",
@@ -343,7 +343,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Subaccounts",
             "name": "Subaccounts",
-            "summary": "",
+            "summary": "Manage\u0020your\u0020subaccounts,\u0020including\u0020the\u0020abilitiy\u0020to\u0020pause\u0020and\u0020resume\u0020sending.",
             "url": "classes/Mandrill-Categories-Subaccounts.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Subaccounts\u003A\u003A__construct\u0028\u0029",
@@ -388,7 +388,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Tags",
             "name": "Tags",
-            "summary": "",
+            "summary": "List,\u0020delete,\u0020or\u0020get\u0020information\u0020on\u0020your\u0020Tags\u0020and\u0020their\u0020sending\u0020statistics.",
             "url": "classes/Mandrill-Categories-Tags.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Tags\u003A\u003A__construct\u0028\u0029",
@@ -423,7 +423,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Templates",
             "name": "Templates",
-            "summary": "",
+            "summary": "Manage\u0020the\u0020Templates\u0020in\u0020your\u0020account.",
             "url": "classes/Mandrill-Categories-Templates.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Templates\u003A\u003A__construct\u0028\u0029",
@@ -473,7 +473,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Urls",
             "name": "Urls",
-            "summary": "",
+            "summary": "Manage\u0020your\u0020tracking\u0020domains.\u0020Some\u0020of\u0020these\u0020endpoints\u0020may\u0020be\u0020deprecated.",
             "url": "classes/Mandrill-Categories-Urls.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Urls\u003A\u003A__construct\u0028\u0029",
@@ -513,7 +513,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Users",
             "name": "Users",
-            "summary": "",
+            "summary": "Get\u0020information\u0020about\u0020your\u0020account,\u0020or\u0020ping\u0020Transactional.",
             "url": "classes/Mandrill-Categories-Users.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Users\u003A\u003A__construct\u0028\u0029",
@@ -543,7 +543,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Webhooks",
             "name": "Webhooks",
-            "summary": "",
+            "summary": "Manage\u0020the\u0020webhooks\u0020in\u0020your\u0020account.",
             "url": "classes/Mandrill-Categories-Webhooks.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Webhooks\u003A\u003A__construct\u0028\u0029",
@@ -578,7 +578,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\Mandrill\\Categories\\Whitelists",
             "name": "Whitelists",
-            "summary": "",
+            "summary": "Add,\u0020list,\u0020or\u0020delete\u0020from\u0020your\u0020Rejection\u0020Allowlist.\u0020These\u0020endpoints\u0020are\u0020being\u0020replaced\u0020with\u0020a\u0020series\u0020of\u0020functionally\u0020identical\u0020endpoints\u0020called\u0020\/allowlists.",
             "url": "classes/Mandrill-Categories-Whitelists.html"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Whitelists\u003A\u003A__construct\u0028\u0029",
@@ -601,14 +601,74 @@ Search.appendIndex(
             "summary": "Removes\u0020an\u0020email\u0020address\u0020from\u0020the\u0020whitelist.",
             "url": "classes/Mandrill-Categories-Whitelists.html#method_delete"
         },                {
+            "fqsen": "\\Mandrill\\Client",
+            "name": "Client",
+            "summary": "Mandrill\u0020API\u0020Client.",
+            "url": "classes/Mandrill-Client.html"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Create\u0020a\u0020new\u0020Mandrill\u0020API\u0020Client.",
+            "url": "classes/Mandrill-Client.html#method___construct"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A__destruct\u0028\u0029",
+            "name": "__destruct",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#method___destruct"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003Acall\u0028\u0029",
+            "name": "call",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#method_call"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003AreadConfigs\u0028\u0029",
+            "name": "readConfigs",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#method_readConfigs"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003AcastError\u0028\u0029",
+            "name": "castError",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#method_castError"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003Alog\u0028\u0029",
+            "name": "log",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#method_log"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024apikey",
+            "name": "apikey",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#property_apikey"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024ch",
+            "name": "ch",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#property_ch"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024root",
+            "name": "root",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#property_root"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024debug",
+            "name": "debug",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#property_debug"
+        },                {
+            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024errorMap",
+            "name": "errorMap",
+            "summary": "",
+            "url": "classes/Mandrill-Client.html#property_errorMap"
+        },                {
             "fqsen": "\\Mandrill\\Exceptions\\Error",
             "name": "Error",
-            "summary": "",
+            "summary": "Mandrill\u0020Error.",
             "url": "classes/Mandrill-Exceptions-Error.html"
         },                {
             "fqsen": "\\Mandrill\\Exceptions\\HttpError",
             "name": "HttpError",
-            "summary": "",
+            "summary": "There\u0020is\u0020a\u0020error\u0020with\u0020the\u0020HTTP\u0020request.",
             "url": "classes/Mandrill-Exceptions-HttpError.html"
         },                {
             "fqsen": "\\Mandrill\\Exceptions\\InvalidCustomDNS",
@@ -755,66 +815,6 @@ Search.appendIndex(
             "name": "ValidationError",
             "summary": "The\u0020parameters\u0020passed\u0020to\u0020the\u0020API\u0020call\u0020are\u0020invalid\u0020or\u0020not\u0020provided\u0020when\u0020required.",
             "url": "classes/Mandrill-Exceptions-ValidationError.html"
-        },                {
-            "fqsen": "\\Mandrill\\Client",
-            "name": "Client",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method___construct"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A__destruct\u0028\u0029",
-            "name": "__destruct",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method___destruct"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003Acall\u0028\u0029",
-            "name": "call",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method_call"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003AreadConfigs\u0028\u0029",
-            "name": "readConfigs",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method_readConfigs"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003AcastError\u0028\u0029",
-            "name": "castError",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method_castError"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003Alog\u0028\u0029",
-            "name": "log",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method_log"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024apikey",
-            "name": "apikey",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#property_apikey"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024ch",
-            "name": "ch",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#property_ch"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024root",
-            "name": "root",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#property_root"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024debug",
-            "name": "debug",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#property_debug"
-        },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A\u0024error_map",
-            "name": "error_map",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#property_error_map"
         },                {
             "fqsen": "\\",
             "name": "\\",

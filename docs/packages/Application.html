@@ -60,7 +60,7 @@
 </h4>
     <ul class="phpdocumentor-list">
                     <li>
-                <a href="namespaces/mandrill-categories.html" class="-active">Categories</a>
+                <a href="namespaces/mandrill-categories.html" class="">Categories</a>
                 
             </li>
                     <li>
@@ -73,7 +73,7 @@
                 <section class="phpdocumentor-sidebar__category">
             <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
                                     <h4 class="phpdocumentor-sidebar__root-namespace">
-    <a href="packages/Application.html" class="">Application</a>
+    <a href="packages/Application.html" class="-active">Application</a>
 </h4>
 
                         </section>
@@ -93,11 +93,10 @@
 
             <div class="phpdocumentor-column -eight phpdocumentor-content">
                     <ul class="phpdocumentor-breadcrumbs">
-            <li class="phpdocumentor-breadcrumb"><a href="namespaces/mandrill.html">Mandrill</a></li>
     </ul>
 
-    <article class="phpdocumentor-element -namespace">
-        <h2 class="phpdocumentor-content__title">Categories</h2>
+    <article class="phpdocumentor-element -package">
+        <h2 class="phpdocumentor-content__title">Application</h2>
 
         
 
@@ -138,6 +137,70 @@
         <dd>Manage the webhooks in your account.</dd>
             <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Categories-Whitelists.html"><abbr title="\Mandrill\Categories\Whitelists">Whitelists</abbr></a></dt>
         <dd>Add, list, or delete from your Rejection Allowlist. These endpoints are being replaced with a series of functionally identical endpoints called /allowlists.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Client.html"><abbr title="\Mandrill\Client">Client</abbr></a></dt>
+        <dd>Mandrill API Client.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-Error.html"><abbr title="\Mandrill\Exceptions\Error">Error</abbr></a></dt>
+        <dd>Mandrill Error.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-HttpError.html"><abbr title="\Mandrill\Exceptions\HttpError">HttpError</abbr></a></dt>
+        <dd>There is a error with the HTTP request.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidCustomDNS.html"><abbr title="\Mandrill\Exceptions\InvalidCustomDNS">InvalidCustomDNS</abbr></a></dt>
+        <dd>The domain name is not configured for use as the dedicated IP&#039;s custom reverse DNS.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidCustomDNSPending.html"><abbr title="\Mandrill\Exceptions\InvalidCustomDNSPending">InvalidCustomDNSPending</abbr></a></dt>
+        <dd>A custom DNS change for this dedicated IP is currently pending.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidDeleteDefaultPool.html"><abbr title="\Mandrill\Exceptions\InvalidDeleteDefaultPool">InvalidDeleteDefaultPool</abbr></a></dt>
+        <dd>The default pool cannot be deleted.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidDeleteNonEmptyPool.html"><abbr title="\Mandrill\Exceptions\InvalidDeleteNonEmptyPool">InvalidDeleteNonEmptyPool</abbr></a></dt>
+        <dd>Non-empty pools cannot be deleted.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidEmptyDefaultPool.html"><abbr title="\Mandrill\Exceptions\InvalidEmptyDefaultPool">InvalidEmptyDefaultPool</abbr></a></dt>
+        <dd>You cannot remove the last IP from your default IP pool.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidKey.html"><abbr title="\Mandrill\Exceptions\InvalidKey">InvalidKey</abbr></a></dt>
+        <dd>The provided API key is not a valid Mandrill API key.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidReject.html"><abbr title="\Mandrill\Exceptions\InvalidReject">InvalidReject</abbr></a></dt>
+        <dd>The requested email is not in the rejection list.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidTagName.html"><abbr title="\Mandrill\Exceptions\InvalidTagName">InvalidTagName</abbr></a></dt>
+        <dd>The requested tag does not exist or contains invalid characters.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-InvalidTemplate.html"><abbr title="\Mandrill\Exceptions\InvalidTemplate">InvalidTemplate</abbr></a></dt>
+        <dd>The given template name already exists or contains invalid characters.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-IPProvisionLimit.html"><abbr title="\Mandrill\Exceptions\IPProvisionLimit">IPProvisionLimit</abbr></a></dt>
+        <dd>A dedicated IP cannot be provisioned while another request is pending.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-MetadataFieldLimit.html"><abbr title="\Mandrill\Exceptions\MetadataFieldLimit">MetadataFieldLimit</abbr></a></dt>
+        <dd>Custom metadata field limit reached.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-NoSendingHistory.html"><abbr title="\Mandrill\Exceptions\NoSendingHistory">NoSendingHistory</abbr></a></dt>
+        <dd>The user hasn&#039;t started sending yet.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-PaymentRequired.html"><abbr title="\Mandrill\Exceptions\PaymentRequired">PaymentRequired</abbr></a></dt>
+        <dd>The requested feature requires payment.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-PoorReputation.html"><abbr title="\Mandrill\Exceptions\PoorReputation">PoorReputation</abbr></a></dt>
+        <dd>The user&#039;s reputation is too low to continue.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-ServiceUnavailable.html"><abbr title="\Mandrill\Exceptions\ServiceUnavailable">ServiceUnavailable</abbr></a></dt>
+        <dd>The subsystem providing this API call is down for maintenance.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownExport.html"><abbr title="\Mandrill\Exceptions\UnknownExport">UnknownExport</abbr></a></dt>
+        <dd>The requested export job does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownInboundDomain.html"><abbr title="\Mandrill\Exceptions\UnknownInboundDomain">UnknownInboundDomain</abbr></a></dt>
+        <dd>The requested inbound domain does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownInboundRoute.html"><abbr title="\Mandrill\Exceptions\UnknownInboundRoute">UnknownInboundRoute</abbr></a></dt>
+        <dd>The provided inbound route does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownIP.html"><abbr title="\Mandrill\Exceptions\UnknownIP">UnknownIP</abbr></a></dt>
+        <dd>The provided dedicated IP does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownMessage.html"><abbr title="\Mandrill\Exceptions\UnknownMessage">UnknownMessage</abbr></a></dt>
+        <dd>The provided message id does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownMetadataField.html"><abbr title="\Mandrill\Exceptions\UnknownMetadataField">UnknownMetadataField</abbr></a></dt>
+        <dd>The provided metadata field name does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownPool.html"><abbr title="\Mandrill\Exceptions\UnknownPool">UnknownPool</abbr></a></dt>
+        <dd>The provided dedicated IP pool does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownSender.html"><abbr title="\Mandrill\Exceptions\UnknownSender">UnknownSender</abbr></a></dt>
+        <dd>The requested sender does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownSubaccount.html"><abbr title="\Mandrill\Exceptions\UnknownSubaccount">UnknownSubaccount</abbr></a></dt>
+        <dd>The provided subaccount id does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownTemplate.html"><abbr title="\Mandrill\Exceptions\UnknownTemplate">UnknownTemplate</abbr></a></dt>
+        <dd>The requested template does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownTrackingDomain.html"><abbr title="\Mandrill\Exceptions\UnknownTrackingDomain">UnknownTrackingDomain</abbr></a></dt>
+        <dd>The provided tracking domain does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownUrl.html"><abbr title="\Mandrill\Exceptions\UnknownUrl">UnknownUrl</abbr></a></dt>
+        <dd>The requested URL has not been seen in a tracked link.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-UnknownWebhook.html"><abbr title="\Mandrill\Exceptions\UnknownWebhook">UnknownWebhook</abbr></a></dt>
+        <dd>The requested webhook does not exist.</dd>
+            <dt class="phpdocumentor-table-of-contents__entry -class"><a href="classes/Mandrill-Exceptions-ValidationError.html"><abbr title="\Mandrill\Exceptions\ValidationError">ValidationError</abbr></a></dt>
+        <dd>The parameters passed to the API call are invalid or not provided when required.</dd>
     
     
     </dl>
@@ -161,7 +224,7 @@
 </section>
             </div>
         </div>
-        <a href="namespaces/mandrill-categories.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
+        <a href="packages/Application.html#top" class="phpdocumentor-back-to-top"><i class="fas fa-chevron-circle-up"></i></a>
 
     </main>
 
