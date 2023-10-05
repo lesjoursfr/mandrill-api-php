@@ -36,6 +36,11 @@ Search.appendIndex(
             "summary": "Begins\u0020an\u0020export\u0020of\u0020your\u0020activity\u0020history.\u0020The\u0020activity\u0020will\u0020be\u0020exported\u0020to\u0020a\u0020zip\u0020archive\ncontaining\u0020a\u0020single\u0020file\u0020named\u0020activity.csv\u0020in\u0020the\u0020same\u0020format\u0020as\u0020you\u0020would\u0020be\u0020able\u0020to\u0020export\nfrom\u0020your\u0020account\u0027s\u0020activity\u0020view.\u0020It\u0020includes\u0020the\u0020following\u0020fields\u003A\u0020Date,\u0020Email\u0020Address,\nSender,\u0020Subject,\u0020Status,\u0020Tags,\u0020Opens,\u0020Clicks,\u0020Bounce\u0020Detail.\u0020If\u0020you\u0020have\u0020configured\u0020any\u0020custom\nmetadata\u0020fields,\u0020they\u0020will\u0020be\u0020included\u0020in\u0020the\u0020exported\u0020data.",
             "url": "classes/Mandrill-Categories-Exports.html#method_activity"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Exports\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Exports.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Inbound",
             "name": "Inbound",
             "summary": "Manage\u0020your\u0020inbound\u0020domains\u0020and\u0020routes.",
@@ -91,6 +96,11 @@ Search.appendIndex(
             "summary": "Take\u0020a\u0020raw\u0020MIME\u0020document\u0020destined\u0020for\u0020a\u0020domain\u0020with\u0020inbound\u0020domains\u0020set\u0020up,\u0020and\u0020send\u0020it\u0020to\u0020the\u0020inbound\u0020hook\u0020exactly\u0020as\u0020if\u0020it\u0020had\u0020been\u0020sent\u0020over\u0020SMTP.",
             "url": "classes/Mandrill-Categories-Inbound.html#method_sendRaw"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Inbound\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Inbound.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Internal",
             "name": "Internal",
             "summary": "",
@@ -100,6 +110,11 @@ Search.appendIndex(
             "name": "__construct",
             "summary": "",
             "url": "classes/Mandrill-Categories-Internal.html#method___construct"
+        },                {
+            "fqsen": "\\Mandrill\\Categories\\Internal\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Internal.html#property_master"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Ips",
             "name": "Ips",
@@ -176,6 +191,11 @@ Search.appendIndex(
             "summary": "Configures\u0020the\u0020custom\u0020DNS\u0020name\u0020for\u0020a\u0020dedicated\u0020IP.",
             "url": "classes/Mandrill-Categories-Ips.html#method_setCustomDns"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Ips\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Ips.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Messages",
             "name": "Messages",
             "summary": "Send,\u0020schedule,\u0020or\u0020get\u0020information\u0020on\u0020your\u0020emails.",
@@ -241,6 +261,11 @@ Search.appendIndex(
             "summary": "Reschedules\u0020a\u0020scheduled\u0020email.",
             "url": "classes/Mandrill-Categories-Messages.html#method_reschedule"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Messages\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Messages.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Metadata",
             "name": "Metadata",
             "summary": "Manage\u0020your\u0020custom\u0020metadata\u0020fields\u0020in\u0020your\u0020account.",
@@ -271,6 +296,11 @@ Search.appendIndex(
             "summary": "Delete\u0020an\u0020existing\u0020custom\u0020metadata\u0020field.\u0020Deletion\u0020isn\u0027t\u0020instataneous,\u0020and\u0020\/metadata\/list\u0020will\u0020continue\u0020to\u0020return\u0020the\u0020field\u0020until\u0020the\u0020asynchronous\u0020deletion\u0020process\u0020is\u0020complete.",
             "url": "classes/Mandrill-Categories-Metadata.html#method_delete"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Metadata\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Metadata.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Rejects",
             "name": "Rejects",
             "summary": "Add,\u0020list,\u0020or\u0020delete\u0020from\u0020your\u0020Rejection\u0020Denylist.",
@@ -295,6 +325,11 @@ Search.appendIndex(
             "name": "delete",
             "summary": "Deletes\u0020an\u0020email\u0020rejection.\u0020There\u0020is\u0020no\u0020limit\u0020to\u0020how\u0020many\u0020rejections\nyou\u0020can\u0020remove\u0020from\u0020your\u0020blacklist,\u0020but\u0020keep\u0020in\u0020mind\u0020that\u0020each\u0020deletion\nhas\u0020an\u0020affect\u0020on\u0020your\u0020reputation.",
             "url": "classes/Mandrill-Categories-Rejects.html#method_delete"
+        },                {
+            "fqsen": "\\Mandrill\\Categories\\Rejects\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Rejects.html#property_master"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Senders",
             "name": "Senders",
@@ -341,6 +376,11 @@ Search.appendIndex(
             "summary": "Return\u0020the\u0020recent\u0020history\u0020\u0028hourly\u0020stats\u0020for\u0020the\u0020last\u002030\u0020days\u0029\u0020for\u0020a\u0020sender.",
             "url": "classes/Mandrill-Categories-Senders.html#method_timeSeries"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Senders\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Senders.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Subaccounts",
             "name": "Subaccounts",
             "summary": "Manage\u0020your\u0020subaccounts,\u0020including\u0020the\u0020abilitiy\u0020to\u0020pause\u0020and\u0020resume\u0020sending.",
@@ -386,6 +426,11 @@ Search.appendIndex(
             "summary": "Resume\u0020a\u0020paused\u0020subaccount\u0027s\u0020sending.",
             "url": "classes/Mandrill-Categories-Subaccounts.html#method_resume"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Subaccounts\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Subaccounts.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Tags",
             "name": "Tags",
             "summary": "List,\u0020delete,\u0020or\u0020get\u0020information\u0020on\u0020your\u0020Tags\u0020and\u0020their\u0020sending\u0020statistics.",
@@ -420,6 +465,11 @@ Search.appendIndex(
             "name": "allTimeSeries",
             "summary": "Return\u0020the\u0020recent\u0020history\u0020\u0028hourly\u0020stats\u0020for\u0020the\u0020last\u002030\u0020days\u0029\u0020for\u0020all\u0020tags.",
             "url": "classes/Mandrill-Categories-Tags.html#method_allTimeSeries"
+        },                {
+            "fqsen": "\\Mandrill\\Categories\\Tags\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Tags.html#property_master"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Templates",
             "name": "Templates",
@@ -471,6 +521,11 @@ Search.appendIndex(
             "summary": "Inject\u0020content\u0020and\u0020optionally\u0020merge\u0020fields\u0020into\u0020a\u0020template,\u0020returning\u0020the\u0020HTML\u0020that\u0020results.",
             "url": "classes/Mandrill-Categories-Templates.html#method_render"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Templates\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Templates.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Urls",
             "name": "Urls",
             "summary": "Manage\u0020your\u0020tracking\u0020domains.\u0020Some\u0020of\u0020these\u0020endpoints\u0020may\u0020be\u0020deprecated.",
@@ -511,6 +566,11 @@ Search.appendIndex(
             "summary": "Checks\u0020the\u0020CNAME\u0020settings\u0020for\u0020a\u0020tracking\u0020domain.\u0020The\u0020domain\u0020must\u0020have\u0020been\u0020added\u0020already\u0020with\u0020the\u0020add\u002Dtracking\u002Ddomain\u0020call.",
             "url": "classes/Mandrill-Categories-Urls.html#method_checkTrackingDomain"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Urls\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Urls.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Users",
             "name": "Users",
             "summary": "Get\u0020information\u0020about\u0020your\u0020account,\u0020or\u0020ping\u0020Transactional.",
@@ -540,6 +600,11 @@ Search.appendIndex(
             "name": "senders",
             "summary": "Return\u0020the\u0020senders\u0020that\u0020have\u0020tried\u0020to\u0020use\u0020this\u0020account,\u0020both\u0020verified\u0020and\u0020unverified.",
             "url": "classes/Mandrill-Categories-Users.html#method_senders"
+        },                {
+            "fqsen": "\\Mandrill\\Categories\\Users\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Users.html#property_master"
         },                {
             "fqsen": "\\Mandrill\\Categories\\Webhooks",
             "name": "Webhooks",
@@ -576,6 +641,11 @@ Search.appendIndex(
             "summary": "Delete\u0020an\u0020existing\u0020webhook.",
             "url": "classes/Mandrill-Categories-Webhooks.html#method_delete"
         },                {
+            "fqsen": "\\Mandrill\\Categories\\Webhooks\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Webhooks.html#property_master"
+        },                {
             "fqsen": "\\Mandrill\\Categories\\Whitelists",
             "name": "Whitelists",
             "summary": "Add,\u0020list,\u0020or\u0020delete\u0020from\u0020your\u0020Rejection\u0020Allowlist.\u0020These\u0020endpoints\u0020are\u0020being\u0020replaced\u0020with\u0020a\u0020series\u0020of\u0020functionally\u0020identical\u0020endpoints\u0020called\u0020\/allowlists.",
@@ -600,6 +670,11 @@ Search.appendIndex(
             "name": "delete",
             "summary": "Removes\u0020an\u0020email\u0020address\u0020from\u0020the\u0020whitelist.",
             "url": "classes/Mandrill-Categories-Whitelists.html#method_delete"
+        },                {
+            "fqsen": "\\Mandrill\\Categories\\Whitelists\u003A\u003A\u0024master",
+            "name": "master",
+            "summary": "",
+            "url": "classes/Mandrill-Categories-Whitelists.html#property_master"
         },                {
             "fqsen": "\\Mandrill\\Client",
             "name": "Client",
