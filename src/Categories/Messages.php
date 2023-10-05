@@ -9,6 +9,8 @@ use Mandrill\Client;
  */
 class Messages
 {
+    public $master;
+
     // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {

@@ -9,6 +9,8 @@ use Mandrill\Client;
  */
 class Exports
 {
+    public $master;
+
     // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function __construct(Client $master)
     {
