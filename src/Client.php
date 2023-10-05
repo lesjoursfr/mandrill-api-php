@@ -44,6 +44,22 @@ class Client
         'Unknown_MetadataField' => Exceptions\UnknownMetadataField::class,
     ];
 
+    public $templates;
+    public $exports;
+    public $users;
+    public $rejects;
+    public $inbound;
+    public $tags;
+    public $messages;
+    public $whitelists;
+    public $ips;
+    public $internal;
+    public $subaccounts;
+    public $urls;
+    public $webhooks;
+    public $senders;
+    public $metadata;
+
     /**
      * Create a new Mandrill API Client.
      * If there is no API key the client will try to load it from the MANDRILL_APIKEY environment variable
