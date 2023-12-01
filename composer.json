@@ -1,7 +1,7 @@
 {
 	"name": "lesjoursfr/mandrill-api-php",
 	"type": "library",
-	"version": "2.1.2",
+	"version": "2.1.3",
 	"description": "API client library for the Mandrill email as a service platform",
 	"keywords": [
 		"email",
