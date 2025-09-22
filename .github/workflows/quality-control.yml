@@ -2,12 +2,13 @@ name: QC Checks
 
 on:
   push:
-    branches-ignore:
-      - renovate/*
-      - stable
-      - beta
-    tags-ignore:
-      - "**"
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   checks:
@@ -17,10 +18,10 @@ jobs:
     steps:
       - uses: actions/checkout@v5
 
-      - name: Use PHP 8.2
-        uses: shivammathur/setup-php@v2
+      - name: Use PHP 8.3
+        uses: shivammathur/setup-php@bf6b4fbd49ca58e4608c9c89fba0b8d90bd2a39f # v2.35.5
         with:
-          php-version: "8.2"
+          php-version: 8.3
           coverage: none
           tools: composer, cs2pr
 
