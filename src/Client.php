@@ -109,12 +109,6 @@ class Client
     }
 
     // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
-    public function __destruct()
-    {
-        curl_close($this->ch);
-    }
-
-    // phpcs:ignore Symfony.Commenting.FunctionComment.Missing
     public function call($url, $params)
     {
         $params['key'] = $this->apikey;
