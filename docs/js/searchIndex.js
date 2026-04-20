@@ -686,11 +686,6 @@ Search.appendIndex(
             "summary": "Create\u0020a\u0020new\u0020Mandrill\u0020API\u0020Client.",
             "url": "classes/Mandrill-Client.html#method___construct"
         },                {
-            "fqsen": "\\Mandrill\\Client\u003A\u003A__destruct\u0028\u0029",
-            "name": "__destruct",
-            "summary": "",
-            "url": "classes/Mandrill-Client.html#method___destruct"
-        },                {
             "fqsen": "\\Mandrill\\Client\u003A\u003Acall\u0028\u0029",
             "name": "call",
             "summary": "",
